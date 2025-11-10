@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
         <section>
             <div className="mycontainer">
-                <div className="parent w-full sm:h-[500px] h-[300px] rounded-3xl bg-[url('src/assets/img/herobg.png')] bg-cover bg-center mt-36 my-10 ">
+                <div className="parent w-full sm:h-[500px] h-[300px] rounded-3xl bg-[url('src/assets/img/herobg.png')] bg-cover bg-center sm:mt-36 mt-28  my-10 ">
                     <h1 className='font-semibold text-4xl text-center text-white pt-14 mb-3'>Compact cars</h1>
                     <p className=' font-normal text-base text-center text-white'>Rent cars as you are comfortable and where you are <br /> comfortable.</p>
 
