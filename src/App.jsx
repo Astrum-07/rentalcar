@@ -1,8 +1,18 @@
 import React from 'react'
+import Header from './my_components/Header'
+import Hero from './my_components/Hero'
+import Choose from './my_components/Choose'
+import Links from './my_components/Links'
 
 const App = () => {
   return (
-    <div className='flex justify-center animate-bounce mt-20 text-4xl'>14:00 gacha yuklab qo'yaman</div>
+    <div>
+      <Header/>
+      <Hero/>
+      <Choose/>
+      <Links/>
+    </div>
+
   )
 }
 
